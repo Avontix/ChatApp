@@ -1,0 +1,52 @@
+.senderMessage {
+  align-self: flex-end;
+  /* background: #caf8f2; */
+  padding: 5px;
+  max-width: 45%;
+  min-width: 100px;
+  width: fit-content;
+  overflow-wrap: break-word;
+  border-radius: 10px;
+  border-bottom: 2px solid rgba(37, 37, 37, 0.075);
+  background-color: rgba(190, 248, 216, 0.274);
+  border-radius: 12px;
+  flex-direction: column;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(78, 76, 76, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2px;
+}
+.senderMessage > p {
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.senderMessage > span {
+  float: right;
+  padding: 0px 5px;
+  font-size: 0.9em;
+  color: #565a53;
+  display: flex;
+  align-items: center;
+}
+
+.senderMessage > span > .MuiSvgIcon-root {
+  font-size: 1.2em;
+  color: #4fc3f7;
+  padding: 0px 5px;
+}
+.senderMessage > img {
+  float: right;
+  align-items: center;
+  min-width: 200px;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+.senderMessage_image {
+  max-width: 45%;
+  min-width: 100px;
+  width: fit-content;
+  float: right;
+}

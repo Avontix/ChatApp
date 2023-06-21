@@ -1,0 +1,28 @@
+.contactCard {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.568);
+  cursor: pointer;
+  user-select: none;
+}
+.contactCard:hover {
+  background: rgba(255, 255, 255, 0.466);
+}
+.contactCard__username {
+  margin-left: 10px;
+}
+.contactCard__username > h3 {
+  font-size: 1.2rem;
+  font-weight: 545;
+}
+.profile_model {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: column;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(78, 76, 76, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}

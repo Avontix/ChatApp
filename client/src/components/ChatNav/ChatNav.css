@@ -1,0 +1,39 @@
+.chatNav {
+  display: flex;
+  background: #7e8a1196;
+  padding: 2px;
+  border-left: 1px solid rgba(220, 220, 220, 0.096);
+}
+
+.chatNav__left {
+  display: flex;
+  align-items: center;
+  padding: 0.98em 1px;
+}
+
+.chatNav__left > .MuiSvgIcon-root {
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}
+
+.chatNav__left > h2 {
+  font-weight: 548;
+  color: white;
+  margin-left: 10px;
+}
+
+.chatNav__right {
+  display: flex;
+  align-items: center;
+  padding: 0.98em 1px;
+  margin-left: auto;
+}
+
+.chatNav__right > .MuiSvgIcon-root {
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}

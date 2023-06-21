@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  min-height: 100vh;
+  background-image: url("avatars/background.jpg");
+  background-size: cover;
+  display: flex;
+  font-family: sans-serif;
+}
+
+.form {
+  padding: 60px;
+  background-color: rgba(255, 248, 184, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(78, 76, 76, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.input {
+  padding: 5px 15px 5px 5px;
+  width: 200px;
+}
+
+.forgotten-password {
+  align-self: flex-end;
+  margin-top: 7px;
+}
+
+#login-btn {
+  align-self: center;
+  padding: 7px 30px;
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+  background-color: rgb(33, 177, 4);
+  box-shadow: 2px 2px 2px rgb(92, 0, 54);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+
+#login-btn:hover {
+  background-color: rgb(118, 248, 43);
+  box-shadow: none;
+  color: #000000;
+}
+
+#OTP-btn, #verify {
+  align-self: center;
+  margin-top: 25px;
+  width: auto;
+  border: none;
+  color: #fff;
+  background-color: rgb(60, 189, 240);
+  box-shadow: 2px 2px 2px rgb(92, 0, 54);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+#OTP-btn:hover {
+  background-color: rgb(60, 189, 240);
+  box-shadow: none;
+  color: #000000;
+}
+#verify{
+  background-color: rgb(33, 177, 4);
+}
+#verify:hover {
+  background-color: rgb(118, 248, 43);
+  box-shadow: none;
+  color: #000000;
+}
+#cancel-btn {
+  align-self: center;
+  padding: 7px 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: rgb(113, 117, 113);
+  box-shadow: 2px 2px 2px rgb(83, 54, 71);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+
+#cancel-btn:hover {
+  background-color: rgb(157, 168, 151);
+  box-shadow: none;
+  color: #000000;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(78, 89, 248);
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  width: 500px;
+  position:relative;
+  min-height: 100vh;
+  display: flex;
+  background-color: rgba(190, 248, 245, 0.5);
+  border-radius: 2px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(78, 76, 76, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+/* @media screen and (max-width:1300px) {
+  .navbar {
+    float: none;
+    width: 205vh;
+    max-width: 205vh;
+    background-color: #000000;
+  }
+} */
+.model {
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 211, 93, 0.329);
+  border-radius: 12px;
+  flex-direction: column;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(78, 76, 76, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.container-login{
+	width: 100%;  
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+  }
+
+  .login{
+  padding: 60px;
+  background-color: rgba(255, 248, 184, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 15px;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(78, 76, 76, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-header{
+      background-color: rgba(124, 245, 108, 0.692);
+      display: flex;
+      margin-top: -7px;
+      width: 100%;
+      height: 10vh;
+  }
+  .nav-header-chat{
+    font-size:30px;
+    font-weight:bold;
+     margin :8px;
+  }
+  .chat-header{
+    background-color: rgba(124, 245, 108, 0.692);
+    display: flex;
+    margin-top: 1px;
+    width: 100%;
+    height: 10vh;
+}
+* {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
